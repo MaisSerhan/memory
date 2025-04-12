@@ -16,10 +16,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="../style/9memory.css">
     <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=ufjsLXmE3wDk&format=png&color=000000">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cairo:wght@400;700&display=swap" rel="stylesheet">
     <title>صديقة الطفولة</title>
 </head>
 <body>
-    <main class="container mt-5">
+    <main  class="container mt-5 text-center bg-light p-4 rounded shadow">
+        <h5 class="mt-4">🎥 لقطات من ذكرياتنا الجميلة:</h5>
         <section>
             <p>صديقتي الغالية، رفيقة الطفولة وأجمل الذكريات 👧👭✨</p>
 
@@ -45,11 +47,15 @@
             
             <p>وهذه مفاجأة بسيطة 🎁، ركّزي في تفاصيل الفيديو 🎥، بكل شيء، كل تفصيل موجود 🎬👀:</p>
             
-            <video width="540" height="560" controls>
+            <div class="ratio ratio-4x3 mt-3">
+                    <video width="540" height="560" controls class="rounded shadow">
                 <source src="../Photo/frind.mp4" type="video/mp4">
               </video>
-              
+            </div>
         </section>
+        <button class="btn btn-outline-danger mt-4" onclick="navigator.share({title: 'صديقة الطفولة', url: window.location.href})">
+            شاركي الذكرى ❤️
+        </button>
     </main>
 </body>
 </html>
