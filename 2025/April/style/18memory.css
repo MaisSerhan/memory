@@ -41,10 +41,6 @@ body{
     transform: rotate(-2deg);
     transition: transform 0.3s ease;
   }
-  .video-note {
-  min-height: 50px;
-  width:340px;
-  }
   .note:hover{
     transform: scale(1.05);
     z-index: 2;
@@ -56,9 +52,3 @@ body{
   .green { background-color: #f0fff4; }
   .yellow { background-color: #fffacd; }
 
-@media (max-width: 700px)  {
-   .main-vido{
-    width: 100%;
-    height: 100%;
- }
-}
