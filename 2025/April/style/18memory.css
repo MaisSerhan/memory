@@ -1,0 +1,56 @@
+body{
+    font-family: 'Cairo', 'Amiri', 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #fff7f0, #fce4ec);
+  }
+  body {
+    background: url('https://template.canva.com/EAF920ufEAc/1/0/1131w-2EDYU4auUqU.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Reem Kufi', sans-serif;
+    margin: 0;
+    padding: 40px;
+  }
+
+  h1 {
+    text-align: center;
+    color: #1f1a1a;
+    margin-bottom: 50px;
+    font-size: 3em;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+  }
+
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .note , .video-note {
+    width: 250px;
+    min-height: 200px;
+    padding: 20px;
+    background-color: #fffbea;
+    border: 2px solid #d4b38c;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.2em;
+    line-height: 1.6;
+    transform: rotate(-2deg);
+    transition: transform 0.3s ease;
+  }
+  .video-note {
+  min-height: 50px;
+  width:340px;
+  }
+  .note:hover{
+    transform: scale(1.05);
+    z-index: 2;
+  }
+
+  .pink { background-color: #ffe4e1; }
+  .blue { background-color: #e0f7fa; }
+  .green { background-color: #f0fff4; }
+  .yellow { background-color: #fffacd; }
