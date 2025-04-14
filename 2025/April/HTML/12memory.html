@@ -21,6 +21,64 @@
     <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=PxhCVdw2hEHs&format=png&color=000000">
     
     <title> مذكرات يومية</title>
+    <style>
+        .text-section {
+            background-color: #ffffffc9;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .text-section:hover {
+            transform: scale(1.01);
+        }
+
+        .image-section i {
+            font-size: 3rem;
+            transition: transform 0.3s ease;
+        }
+
+        .image-section i:hover {
+            transform: rotate(10deg) scale(1.1);
+        }
+
+        img {
+            margin-top: 15px;
+            transition: all 0.4s ease;
+            border-radius: 15px;
+            max-width: 100px;
+        }
+
+        img:hover {
+            transform: scale(1.2);
+        }
+
+        footer {
+            border-top: 1px solid #ccc;
+            font-family: 'Satisfy', cursive;
+        }
+
+        #back-to-top {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            background-color: #B197FC;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 45px;
+            height: 45px;
+            font-size: 1.5rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            display: none;
+            z-index: 1000;
+        }
+
+        #back-to-top:hover {
+            background-color: #9f86ff;
+        }
+    </style>
 </head>
 <body>
     <main class="container mt-5">
