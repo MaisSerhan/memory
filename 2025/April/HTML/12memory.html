@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Satisfy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="../style/9memory.css">
+    <link rel="stylesheet" href="../style/18memory.css">
     <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=PxhCVdw2hEHs&format=png&color=000000">
     
     <title> مذكرات يومية</title>
@@ -42,10 +42,29 @@
             <img src="https://img.icons8.com/?size=100&id=PxhCVdw2hEHs&format=png&color=000000">
             
         </div>
-        <footer class="text-center mt-5 p-3 bg-light text-muted" style="font-family: 'Satisfy', cursive; font-size: 1.2rem; border-top: 1px solid #ccc;">
-                <i class="fa-regular fa-calendar-days me-2" dir="ltr"></i> 12 April 2025
+       </main> 
+      <!-- Back to Top Button -->
+    <button id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+        ↑
+    </button>
+    <footer class="text-center mt-5 p-3 bg-light text-muted" style="font-family: 'Satisfy', cursive; font-size: 1.2rem; border-top: 1px solid #ccc;">
+            <i class="fa-regular fa-calendar-days me-2" dir="ltr"></i> 12 April 2025
             <p>Sunday</p>
-        </footer>
-    </main>
+     </footer>
+    
+
+    <script>
+        // Show button when scrolling
+        window.onscroll = function () {
+            const btn = document.getElementById("back-to-top");
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        };
+    </script>
+        
+    
 </body>
 </html>
